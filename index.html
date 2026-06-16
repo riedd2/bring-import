@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weekly Grocery List</title>
+  <meta name="description" content="Weekly grocery list, importable into the Bring! app.">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    h1 { font-size: 1.4rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin: .15rem 0; }
+    .hint { background: #f4f4f4; border-radius: 8px; padding: .8rem 1rem; font-size: .9rem; }
+    code { background: #eee; padding: .1rem .3rem; border-radius: 4px; }
+    .btn { display: inline-block; background: #e30613; color: #fff; text-decoration: none;
+           font-weight: 600; padding: .9rem 1.4rem; border-radius: 10px; font-size: 1.05rem; }
+    .btn:active { opacity: .85; }
+  </style>
+
+  <!-- This JSON-LD is what Bring! reads to import the list. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Weekly Grocery List",
+    "description": "Default ~1,950 kcal week — full shop.",
+    "recipeYield": "1 week",
+    "recipeCategory": "Groceries",
+    "author": { "@type": "Person", "name": "riedd2" },
+    "recipeInstructions": "Add all items to your Bring! list, then shop.",
+    "recipeIngredient": [
+      "600 g turkey mince",
+      "1.3 kg chicken breast",
+      "400 g beef mince (5%)",
+      "280 g pork loin",
+      "100 g diced ham",
+      "350 g firm tofu",
+      "12 eggs",
+      "1 carton egg whites",
+      "1 kg Greek yogurt (0%)",
+      "500 g cottage cheese",
+      "1.5 L skimmed milk",
+      "150 g light grated cheese",
+      "1 tub light cream cheese",
+      "1 tub light sour cream",
+      "1 piece parmesan",
+      "4 onions",
+      "1 bulb garlic",
+      "5 peppers",
+      "2 courgettes",
+      "1 head broccoli",
+      "2 carrots",
+      "1 bag spinach",
+      "1 portion salad leaves, cucumber + tomato",
+      "1 pack cherry tomatoes",
+      "1 kg potatoes",
+      "1 lemon",
+      "6 bananas",
+      "4 apples",
+      "1 bag frozen berries",
+      "1 bag frozen edamame",
+      "2 tins kidney beans",
+      "2 tins black beans",
+      "1 tin chickpeas",
+      "2 tins chopped tomatoes",
+      "1 tube tomato puree",
+      "1 jar salsa",
+      "750 g rolled oats",
+      "750 g rice",
+      "1 pack couscous",
+      "1 pack wholewheat tortillas",
+      "1 pack wholewheat wraps",
+      "1 loaf rye/wholewheat bread",
+      "1 tub whey protein",
+      "1 bag almonds",
+      "1 bag granola",
+      "olive oil",
+      "sesame oil",
+      "soy sauce",
+      "mustard",
+      "honey",
+      "cocoa powder",
+      "cinnamon",
+      "spices: cumin, paprika, chili, oregano, fajita mix",
+      "fresh ginger",
+      "stock cubes"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <h1>🛒 Weekly Grocery List</h1>
+  <p>
+    <a class="btn" href="https://api.getbring.com/rest/bringrecipes/deeplink?url=https%3A%2F%2Friedd2.github.io%2Fbring-import%2F&amp;source=web">
+      🛒 Import to Bring!
+    </a>
+  </p>
+  <p class="hint">Tap the button on your phone (Bring! installed) to add the whole list.</p>
+  <h2>Items (~1,950 kcal week)</h2>
+  <ul>
+    <li>600 g turkey mince</li>
+    <li>1.3 kg chicken breast</li>
+    <li>400 g beef mince (5%)</li>
+    <li>280 g pork loin</li>
+    <li>100 g diced ham</li>
+    <li>350 g firm tofu</li>
+    <li>12 eggs · 1 carton egg whites</li>
+    <li>1 kg Greek yogurt (0%) · 500 g cottage cheese · 1.5 L skimmed milk</li>
+    <li>150 g light grated cheese · light cream cheese · light sour cream · parmesan</li>
+    <li>4 onions · 1 bulb garlic · 5 peppers · 2 courgettes · 1 head broccoli · 2 carrots</li>
+    <li>1 bag spinach · salad leaves, cucumber + tomato · cherry tomatoes</li>
+    <li>1 kg potatoes · 1 lemon · 6 bananas · 4 apples</li>
+    <li>frozen berries · frozen edamame</li>
+    <li>kidney beans ×2 · black beans ×2 · chickpeas ×1 · chopped tomatoes ×2 · tomato puree · salsa</li>
+    <li>750 g rolled oats · 750 g rice · couscous · tortillas · wraps · bread</li>
+    <li>whey protein · almonds · granola</li>
+    <li>olive oil · sesame oil · soy sauce · mustard · honey · cocoa · cinnamon · spices · ginger · stock cubes</li>
+  </ul>
+</body>
+</html>

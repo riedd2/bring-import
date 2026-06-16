@@ -1,0 +1,59 @@
+# Bring import items — one per line.  Format:  Item | optional amount
+# Lines starting with # are ignored. Edit, then run: python build_bring_page.py
+# Keep this in sync with the vault's Weekly Grocery List (~1,950 kcal target).
+
+Turkey mince | 600 g
+Chicken breast | 1.3 kg
+Beef mince | 400 g (5%)
+Pork loin | 280 g
+Diced ham | 100 g
+Tofu | 350 g firm
+Eggs | 12
+Egg whites | 1 carton
+Greek yogurt | 1 kg (0%)
+Cottage cheese | 500 g
+Skimmed milk | 1.5 L
+Grated cheese | 150 g light
+Cream cheese | light, small tub
+Sour cream | light, small tub
+Parmesan | small piece
+Onions | 4
+Garlic | 1 bulb
+Peppers | 5
+Courgette | 2
+Broccoli | 1 head
+Carrots | 2
+Spinach | 1 bag
+Salad leaves | cucumber + tomato
+Cherry tomatoes | 1 pack
+Potatoes | 1 kg
+Lemon | 1
+Bananas | 6
+Apples | 4
+Frozen berries | 1 bag
+Edamame | 1 bag frozen
+Kidney beans | 2 tins
+Black beans | 2 tins
+Chickpeas | 1 tin
+Chopped tomatoes | 2 tins
+Tomato puree | 1
+Salsa | 1 jar
+Rolled oats | 750 g
+Rice | 750 g
+Couscous | small pack
+Tortillas | wholewheat, 1 pack
+Wraps | wholewheat, 1 pack
+Bread | rye/wholewheat loaf
+Whey protein | check stock
+Nuts | small bag almonds
+Granola | 1 bag
+Olive oil |
+Sesame oil |
+Soy sauce |
+Mustard |
+Honey |
+Cocoa powder |
+Cinnamon |
+Spices | cumin, paprika, chili, oregano, fajita mix
+Ginger | fresh
+Stock cubes |
